@@ -13,7 +13,7 @@ If you need more advanced settings, please check out @jonmikeli's repo linked ab
 
 ## Usage
 
-```
+```console
 docker run --rm -ti \
   -e IOT_HUB_CONNECTION_STRING="HostName=iothub-x.azure-devices.net;DeviceId=simulated-device;SharedAccessKey=y" \
   -e MODEL_URL="https://raw.githubusercontent.com/Azure/opendigitaltwins-dtdl/master/DTDL/v2/samples/Thermostat.json" \
