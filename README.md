@@ -20,7 +20,13 @@ docker run --rm -ti \
   ghcr.io/stefan-hudelmaier/iot-pnp-simple-simulator:main
 ```
 
-> **_NOTE:_** When using a model from GitHub, remember to use the 'raw' link.
+Environment Variables:
+
+| Variable                     | Description         |
+| -----------------------------|---------------|
+| IOT_HUB_CONNECTION_STRING    | The connection string of the IoT Hub device to be simulated |
+| MODEL_URL                    | The URL to a IoT Plug & Play model in DTDL format. When using a model from GitHub, remember to use the 'raw' link.
+
 
 As soon as you have started the container, you should see telemetry values being sent:
 
