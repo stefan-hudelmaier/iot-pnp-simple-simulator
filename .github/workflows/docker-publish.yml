@@ -26,8 +26,10 @@ jobs:
       packages: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository and submodules
         uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
       - name: Build the base docker image
         run: docker build azureiotdevicesimulator5-pnp/sources/IoT.Simulator/ --file azureiotdevicesimulator5-pnp/sources/IoT.Simulator/IoT.Simulator/Dockerfile --tag azureiotdevicesimulator5-pnp:latest 
