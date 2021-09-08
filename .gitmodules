@@ -1,0 +1,3 @@
+[submodule "azureiotdevicesimulator5-pnp"]
+	path = azureiotdevicesimulator5-pnp
+	url = https://github.com/jonmikeli/azureiotdevicesimulator5-pnp
