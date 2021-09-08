@@ -2,7 +2,7 @@
 
 Easily start IoT Hub simulators using DTDL / Azure IoT Plug & Play models.
 
-This generates a Docker Image from the excellent Azure IoT Device Simulator [jonmikeli/azureiotdevicesimulator5-pnp](https://github.com/jonmikeli/azureiotdevicesimulator5-pnp).
+This project generates a Docker Image from the excellent Azure IoT Device Simulator [jonmikeli/azureiotdevicesimulator5-pnp](https://github.com/jonmikeli/azureiotdevicesimulator5-pnp).
 It provides a simple way to start the simulator with default settings. You are only required you to provide a Connection String and a DTDL model.
 
 You can find official DTDL models [here](https://github.com/Azure/iot-plugandplay-models/tree/main/dtmi).
